@@ -3,7 +3,7 @@ version="2.1.9"
 import getpass,time,os
 import signal
 
-if os.path.isdir("/sdcard/TEAM-DAVID")!=True and os.path.isdir("$HOME/Desktop/ROC-X")!=True :
+if os.path.isdir("/sdcard/TEAM-DAVID")!=True and os.path.isdir("$HOME/Desktop/TEAM-DAVID")!=True :
 	try:
 		os.mkdir("/sdcard/TEAM-DAVID")
 	except:
@@ -39,6 +39,12 @@ notice=green+""
 
 def header():
 	print(logo+cyan+"\n\n\n\t\tDeveloped By : LABIB MIRZA\n\n"+green+"\t\t     Version : "+str(version)+" \n\n"+end+line+"\n"+end)
+    print(logo+cyan+"\n\n\n\t\tMaked By : LABIB MIRZA      GRP LAC\n\n"+green+"\t\t     Version : "+str(version)+" \n\n"+end+line+"\n"+end)
+    print(logo+cyan+"\n\n\n\t\tCEO           : ROBI AND PREM GRP: TEAM DAVID\n\n"+green+"\t\t     Version : "+str(version)+" \n\n"+end+line+"\n"+end)
+    print(logo+cyan+"\n\n\n\t\tManager   : SAIFUL AND HANIF GRP:TEAM DAVID\n\n"+green+"\t\t     Version : "+str(version)+" \n\n"+end+line+"\n"+end)    
+    print(logo+cyan+"\n\n\n\t\tS.admin    : OYON GRP: TEAM DAVID\n\n"+green+"\t\t     Version : "+str(version)+" \n\n"+end+line+"\n"+end)
+    print(logo+cyan+"\n\n\n\t\tOld sen adm : ASIF GRP: TEAM DAVID\n\n"+green+"\t\t     Version : "+str(version)+" \n\n"+end+line+"\n"+end)
+
 
 def clear():
 	os.system("clear || cls")
@@ -112,7 +118,7 @@ elif upchck!=version:
 		os.system("python3 $HOME/TEAM-DAVID/main.py")
 		for i in range(99999999999):
 			os.system("clear")
-			a=input(cyan+"\n"*10+" [>] Please Exit Termux from Notification Bar. Then Again Open TEAM-DAVID Tools By :\n\n "+yellow+"\t [1] Exit Termux\n\t [2] Open Termux"+"\n\t [3] cd $HOME/roc-x"+yellow+"\n\t [4] "+yellow+"python3 main.py\n\n")
+			a=input(cyan+"\n"*10+" [>] Please Exit Termux from Notification Bar. Then Again Open TEAM-DAVID Tools By :\n\n "+yellow+"\t [1] Exit Termux\n\t [2] Open Termux"+"\n\t [3] cd $HOME/TEAM-DAVID"+yellow+"\n\t [4] "+yellow+"python3 main.py\n\n")
 
 #Main Page
 
@@ -121,7 +127,7 @@ while count<2:
 	header()
 	notice=""
 	print(cyan+"\n==> Select the number of the option that you want to start from below : ")
-	print(yellow+"\n  [1] BD SMS Bomber\n\n  [2] ROC-X Phishing\n\n  [3] DDoS Attacker\n\n  [4] Kali NetHunter\n\n  [5] MetaSploit FrameWork\n\n  [6] E-Mail Bomber\n\n  ["+str(about)+"] Contact Us"+end)
+	print(yellow+"\n  [1] BD SMS Bomber\n\n  [2] TEAM-DAVID Phishing\n\n  [3] DDoS Attacker\n\n  [4] Kali NetHunter\n\n  [5] MetaSploit FrameWork\n\n  [6] E-Mail Bomber\n\n  ["+str(about)+"] Contact Us"+end)
 	main_opt=str(input(blue+"\n[>] Select Your Option : "+yellow))
 	
 	if main_opt=="1":
