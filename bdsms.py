@@ -16,18 +16,18 @@ end = '\033[0m'
 line=yellow+"======================================================================================================================"
 space=" "
 logo=red+str("""
-ooooooooooooo oooooooooooo                 .o.                ooo              	ooooo       oooooooooo.           oooooooooooo    oooooo         oooo     ooooo   oooooooooo.    
-8'      888          `8 `888'               `8               .888.              `88.             	.888'           `888'          `Y8b       `888'     		 `8        `888 .     	 . 8'        ` 888 '    `888'        ` Y8b   
-         888                888                                .8"888.             888b        	d'888             888              888  	 888           		         `888 .     . 8'            888       888            888    
-         888                888oooo8                   .8'‌‌‌‌‌‍   `888.           8   Y88. 	.P  888             888              888      888oooo8                  `888 .   . 8'               888       888            888 
-         888                888         "                  .88ooo888.         8      `888'       888             888              888  	888    	  "                    `888 . 8'                 888       888            888 
-         888                888               o         .8'             `88.       8          Y         888             888            d88'  	 888        		o                `888'           		  888       888          d88' 
-       o888o            o888ooooood8     o88o        o888o   o8o                  o888o        o888bood8P'   	   o888ooooood8       		  `T        			 o888o   o888bood8P'                    
+	ooooooooooooo oooooooooooo                 .o.                ooo              	ooooo       oooooooooo.           oooooooooooo    oooooo         oooo     ooooo   oooooooooo.    
+	8'      888          `8 `888'               `8               .888.              `88.             	.888'           `888'          `Y8b       `888'     		 `8        `888 .     	 . 8'        ` 888 '    `888'        ` Y8b   
+	         888                888                                .8"888.             888b        	d'888             888              888  	 888           		         `888 .     . 8'            888       888            888    
+	         888                888oooo8                   .8'‌‌‌‌‌‍   `888.           8   Y88. 	.P  888             888              888      888oooo8                  `888 .   . 8'               888       888            888 
+	         888                888         "                  .88ooo888.         8      `888'       888             888              888  	888    	  "                    `888 . 8'                 888       888            888 
+	         888                888               o         .8'             `88.       8          Y         888             888            d88'  	 888        		o                `888'           		  888       888          d88' 
+	       o888o            o888ooooood8     o88o        o888o   o8o                  o888o        o888bood8P'   	   o888ooooood8       		  `T        			 o888o   o888bood8P""")
 """)
 
       
  #HEADER                
-text=cyan+"\t\tDeveloped By : LEGEND AND CRIMINAL BOYZ FOR TD TEAM"+green+"\n\n\t\t★★ TEAM DAVID BD SMS Bomber ★★   \n" 
+text=cyan+"\t\tDeveloped By : LABIB MIRZA"+green+"\n\n\t\t★★ TEAM-DAVID SMS Bomber ★★   \n" 
 notice=""     
 def header():
 	print(logo)
@@ -37,7 +37,7 @@ def header():
 #SELECT_MAIN
 def opt():
 	print(cyan+"\n==> Select Your Option From Below")
-	print(yellow+"\n\n [1] Start BD SMS Bombing\n\n [2] Back to TEAM-DAVID")
+	print(yellow+"\n\n [1] Start TEAM-DAVID SMS Bombing\n\n [2] Back to TEAM-DAVID")
 	
 
 #MAIN_TOOL
@@ -48,13 +48,13 @@ opt()
 while tt<2:
 	opt2=str(input(blue+"\n\n [>] Enter the number of option : "+yellow))
 	if opt2=="1":
-		text=cyan+"\t\tMaked By : LABIB MIRZA"+green+"\n\n\t\t★★ TEAM-DAVID SMS Bomber ★★   \n" 
+		text=cyan+"\t\tDeveloped By : LABIB MIRZA"+green+"\n\n\t\t★★ TEAM-DAVID SMS Bomber ★★   \n" 
 		os.system('clear')
 		header()
 		number=str(input(blue+"\n\n [>] Enter The BD Number : "+yellow))
 		ammount=int(input(blue+"\n [>] Enter The Ammount : "+yellow))
 		os.system('clear')
-		notice=cyan+"\n\t   [•] TEAM DAVID Tools in progress......\n\n"
+		notice=cyan+"\n\t   [•] TEAM-DAVID Tools in progress......\n\n"
 		header()
 		ammount2=1
 		totalsent=0
@@ -74,25 +74,25 @@ while tt<2:
 						
 						
 				if ammount2==1:
-					print(cyan+"\n\t  ★★TEAM DAVID★★==>   "+green+"[✓] 1st SMS Sent.")
+					print(cyan+"\n\t  ★★TEAM-DAVID★★==>   "+green+"[✓] 1st SMS Sent.")
 				elif ammount2==2:
-					print(cyan+"\n\t  ★★TEAM DAVID★★==>   "+green+"[✓] 2nd SMS Sent.")
+					print(cyan+"\n\t  ★★TEAM-DAVID★★==>   "+green+"[✓] 2nd SMS Sent.")
 				elif ammount2==3:
-					print(cyan+"\n\t  ★★TEAM DAVID★★==>   "+green+"[✓] 3rd SMS Sent.")
+					print(cyan+"\n\t  ★★TEAM-DAVID★★==>   "+green+"[✓] 3rd SMS Sent.")
 				else:
-					print(cyan+"\n\t  ★★TEAM DAVID★★==>   "+green+"[✓] "+str(ammount2)+"th SMS Sent.")
+					print(cyan+"\n\t  ★★TEAM-DAVID★★==>   "+green+"[✓] "+str(ammount2)+"th SMS Sent.")
 				time.sleep(1)
 				totalsent+=1
 				ammount2+=1
 			except:
 				if ammount2==1:
-					print(cyan+"\n\t  ★★TEAM DAVID★★==>   "+red+"[×] 1st SMS Not Sent.")
+					print(cyan+"\n\t  ★★TEAM-DAVID★★==>   "+red+"[×] 1st SMS Not Sent.")
 				elif ammount2==2:
-					print(cyan+"\n\t  ★★TEAM DAVID★★==>   "+red+"[×] 2nd SMS Not Sent.")
+					print(cyan+"\n\t  ★★TEAM-DAVID★★==>   "+red+"[×] 2nd SMS Not Sent.")
 				elif ammount2==3:
-					print(cyan+"\n\t  ★★TEAM DAVID★★==>   "+red+"[×] 3rd SMS Not Sent.")
+					print(cyan+"\n\t  ★★TEAM-DAVID★★==>   "+red+"[×] 3rd SMS Not Sent.")
 				else:
-					print(cyan+"\n\t  ★★TEAM DAVID★★==>   "+red+"[×] "+str(ammount2)+"th SMS Not Sent.")
+					print(cyan+"\n\t  ★★TEAM-DAVID★★==>   "+red+"[×] "+str(ammount2)+"th SMS Not Sent.")
 					time.sleep(10)
 					ammount2+=1
 									
@@ -105,7 +105,7 @@ while tt<2:
 		lastt=str(input(cyan+"\n\n\t\t  [✓] All Done!\n\t [•] Now Press Enter Key To Continue\n"))
 		os.system('clear')
 		notice=""
-		text=green+"\n\n\t\t★★★TEAM DAVID SMS Tools★★★   \n" 
+		text=green+"\n\n\t\t★★★TEAM-DAVID SMS Tools★★★   \n" 
 		header()
 		opt()
 	
@@ -113,7 +113,7 @@ while tt<2:
 	elif opt2=="2":
 		os.system("python3 main2.py")
 	else:
-		text=cyan+"\t\tMAKED By : LABIB MIRZA"+green+"\n\n\t\t★★ TEAM-DAVID SMS Bomber ★★   \n" 
+		text=cyan+"\t\tDeveloped By : LABIB MIRZA"+green+"\n\n\t\t★★ TEAM-DAVID SMS Bomber ★★   \n" 
 		notice=red+"\n\t\t[×] Wrong Value Entered"
 		os.system('clear')
 		header()

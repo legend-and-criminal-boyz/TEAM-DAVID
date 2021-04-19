@@ -3,11 +3,11 @@ version="2.1.9"
 import getpass,time,os
 import signal
 
-if os.path.isdir("/sdcard/TEAM-DAVID")!=True and os.path.isdir("$HOME/Desktop/TEAM-DAVID")!=True :
+if os.path.isdir("/sdcard/ROC-X")!=True and os.path.isdir("$HOME/Desktop/ROC-X")!=True :
 	try:
-		os.mkdir("/sdcard/TEAM-DAVID")
+		os.mkdir("/sdcard/ROC-X")
 	except:
-		os.mkdir("$HOME/Desktop/TEAM-DAVID")
+		os.mkdir("$HOME/Desktop/ROC-X")
 
 #CVALUE
 blue= '\33[94m'
@@ -21,13 +21,13 @@ end = '\033[0m'
 line=yellow+"======================================================================================================================"
 space=" "
 logo=red+str("""
-ooooooooooooo oooooooooooo                 .o.                ooo              	ooooo       oooooooooo.           oooooooooooo    oooooo         oooo     ooooo   oooooooooo.    
-8'      888          `8 `888'               `8               .888.              `88.             	.888'           `888'          `Y8b       `888'     		 `8        `888 .     	 . 8'        ` 888 '    `888'        ` Y8b   
-         888                888                                .8"888.             888b        	d'888             888              888  	 888           		         `888 .     . 8'            888       888            888    
-         888                888oooo8                   .8'‌‌‌‌‌‍   `888.           8   Y88. 	.P  888             888              888      888oooo8                  `888 .   . 8'               888       888            888 
-         888                888         "                  .88ooo888.         8      `888'       888             888              888  	888    	  "                    `888 . 8'                 888       888            888 
-         888                888               o         .8'             `88.       8          Y         888             888            d88'  	 888        		o                `888'           		  888       888          d88' 
-       o888o            o888ooooood8     o88o        o888o   o8o                  o888o        o888bood8P'   	   o888ooooood8       		  `T        			 o888o   o888bood8P""")
+	ooooooooooooo oooooooooooo                 .o.                ooo              	ooooo       oooooooooo.           oooooooooooo    oooooo         oooo     ooooo   oooooooooo.    
+	8'      888          `8 `888'               `8               .888.              `88.             	.888'           `888'          `Y8b       `888'     		 `8        `888 .     	 . 8'        ` 888 '    `888'        ` Y8b   
+	         888                888                                .8"888.             888b        	d'888             888              888  	 888           		         `888 .     . 8'            888       888            888    
+ 	        888                888oooo8                   .8'‌‌‌‌‌‍   `888.           8   Y88. 	.P  888             888              888      888oooo8                  `888 .   . 8'               888       888            888 
+	         888                888         "                  .88ooo888.         8      `888'       888             888              888  	888    	  "                    `888 . 8'                 888       888            888 
+	         888                888               o         .8'             `88.       8          Y         888             888            d88'  	 888        		o                `888'           		  888       888          d88' 
+	       o888o            o888ooooood8     o88o        o888o   o8o                  o888o        o888bood8P'   	   o888ooooood8       		  `T        			 o888o   o888bood8P""")""")
 
 
 
@@ -39,8 +39,6 @@ notice=green+""
 
 def header():
 	print(logo+cyan+"\n\n\n\t\tDeveloped By : LABIB MIRZA\n\n"+green+"\t\t     Version : "+str(version)+" \n\n"+end+line+"\n"+end)
-
-
 
 def clear():
 	os.system("clear || cls")
@@ -82,14 +80,14 @@ elif upchck!=version:
 	clear()
 	notice=cyan+"\t\t[•] Backing up the TEAM-DAVID...."
 	header()
-	os.system("mkdir $HOME/TEAM-DAVID_updater")
-	os.system("cp -rf $HOME/TEAM-DAVID $HOME/TEAM-DAVID_updater")
+	os.system("mkdir $HOME/roc-x_updater")
+	os.system("cp -rf $HOME/roc-x $HOME/roc-x_updater")
 	try:
 		clear()
 		notice=cyan+"\t\t[•] Updating the Tools...."
 		header()
 		os.system("cd $HOME")
-		os.system("cd $HOME && rm -rf TEAM-DAVID")
+		os.system("cd $HOME && rm -rf roc-x")
 		print(green)
 		os.system("cd $HOME && git clone https://github.com/legend-and-criminal-boyz/TEAM-DAVID")
 		clear()
@@ -97,7 +95,7 @@ elif upchck!=version:
 		header()
 		print(cyan+"\n [•••] TerMux Restart is Required for The Update. Please Restart Termux For The TEAM-DAVID Updated Version")
 		#os.kill(os.getppid(), signal.SIGHUP)
-		os.system("rm -rf $HOME/TEAM-DAVID_updater")
+		os.system("rm -rf $HOME/roc-x_updater")
 		for i in range(99999999999):
 			os.system("clear")
 			a=input(cyan+"\n"*10+" [>] Please Exit Termux from Notification Bar. Then Again Open TEAM-DAVID Tools By :\n\n "+yellow+"\t [1] Exit Termux\n\t [2] Open Termux"+"\n\t [3] cd $HOME/roc-x"+yellow+"\n\t [4] "+yellow+"python3 main.py\n\n")
@@ -108,13 +106,13 @@ elif upchck!=version:
 		header()
 		sjsjstshsb=input(cyan+"\n\n\t     Press Enter to Restore TEAM-DAVID")
 		os.system("cd $HOME")
-		os.system("cd $HOME && mkdir TEAM-DAVID")
-		os.system("cd $HOME && cp -rf $HOME/TEAM-DAVID_updater/TEAM-DAVID $HOME")
+		os.system("cd $HOME && mkdir roc-x")
+		os.system("cd $HOME && cp -rf $HOME/roc-x_updater/roc-x $HOME")
 		os.system("rm -rf $HOME/roc-x_updater")
-		os.system("python3 $HOME/TEAM-DAVID/main.py")
+		os.system("python3 $HOME/roc-x/main.py")
 		for i in range(99999999999):
 			os.system("clear")
-			a=input(cyan+"\n"*10+" [>] Please Exit Termux from Notification Bar. Then Again Open TEAM-DAVID Tools By :\n\n "+yellow+"\t [1] Exit Termux\n\t [2] Open Termux"+"\n\t [3] cd $HOME/TEAM-DAVID"+yellow+"\n\t [4] "+yellow+"python3 main.py\n\n")
+			a=input(cyan+"\n"*10+" [>] Please Exit Termux from Notification Bar. Then Again Open TEAM-DAVID Tools By :\n\n "+yellow+"\t [1] Exit Termux\n\t [2] Open Termux"+"\n\t [3] cd $HOME/roc-x"+yellow+"\n\t [4] "+yellow+"python3 main.py\n\n")
 
 #Main Page
 
@@ -123,7 +121,7 @@ while count<2:
 	header()
 	notice=""
 	print(cyan+"\n==> Select the number of the option that you want to start from below : ")
-	print(yellow+"\n  [1] BD SMS Bomber\n\n  [2] TEAM-DAVID Phishing\n\n  [3] DDoS Attacker\n\n  [4] Kali NetHunter\n\n  [5] MetaSploit FrameWork\n\n  [6] E-Mail Bomber\n\n  ["+str(about)+"] Contact Us"+end)
+	print(yellow+"\n  [1] TEAM-DAVID SMS Bomber\n\n  [2] TEAM-DAVID Phishing\n\n  [3] DDoS Attacker\n\n  [4] Kali NetHunter\n\n  [5] MetaSploit FrameWork\n\n  [6] E-Mail Bomber\n\n  ["+str(about)+"] Contact Us"+end)
 	main_opt=str(input(blue+"\n[>] Select Your Option : "+yellow))
 	
 	if main_opt=="1":
@@ -218,7 +216,7 @@ while count<2:
 		
 	elif main_opt==str(about):
 		notice=""
-		print(cyan+"\n\n\tFbgrp:"+yellow+"\n\n\thttps://www.facebook.com/groups/536316793982759"+cyan+"\n\n\tFacebook:"+yellow+"\n\n\thttps://www.facebook.com/legend.and.criminal.boyz")
+		print(cyan+"\n\n\tFACEBOOK:"+yellow+"\n\n\thttps://www.facebook.com/legend.and.criminal.boyz"+cyan+"\n\n\tInstagram:"+yellow+"\n\n\thttps://www.instagram.com/labib__mirza")
 		a=input(cyan+"\n\n\t\t[>] Press "+yellow+"Enter"+cyan+" to Continue")
 		count=1
 	else:
