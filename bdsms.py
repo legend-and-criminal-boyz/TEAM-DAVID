@@ -28,11 +28,6 @@ ooooooooooooo oooooooooooo                 .o.                ooo              	
       
  #HEADER                
 text=cyan+"\t\tDeveloped By : LEGEND AND CRIMINAL BOYZ FOR TD TEAM"+green+"\n\n\t\t★★ TEAM DAVID BD SMS Bomber ★★   \n" 
-text=cyan+"\t\tMaked By : LABIB MIRZA      GRP LAC"+green+"\n\n\t\t★★ I AM OWNER THIS TOOLS ★★   \n" 
-text=cyan+"\t\tCEO           : ROBI AND PREM "+green+"\n\n\t\t★★ TEAM DAVID ★★   \n" 
-text=cyan+"\t\tManager   : SAIFUL AND HANIF"+green+"\n\n\t\t★★ TEAM DAVID ★★   \n" 
-text=cyan+"\t\tS.admin    : OYON "+green+"\n\n\t\t★★ TEAM DAVID ★★   \n" 
-text=cyan+"\t\tOld.s adm : ASIF"+green+"\n\n\t\t★★ TEAM DAVID ★★   \n" 
 notice=""     
 def header():
 	print(logo)

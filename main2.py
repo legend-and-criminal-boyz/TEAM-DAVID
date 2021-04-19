@@ -39,11 +39,7 @@ notice=green+""
 
 def header():
 	print(logo+cyan+"\n\n\n\t\tDeveloped By : LABIB MIRZA\n\n"+green+"\t\t     Version : "+str(version)+" \n\n"+end+line+"\n"+end)
-    print(logo+cyan+"\n\n\n\t\tMaked By : LABIB MIRZA      GRP LAC\n\n"+green+"\t\t     Version : "+str(version)+" \n\n"+end+line+"\n"+end)
-    print(logo+cyan+"\n\n\n\t\tCEO           : ROBI AND PREM GRP: TEAM DAVID\n\n"+green+"\t\t     Version : "+str(version)+" \n\n"+end+line+"\n"+end)
-    print(logo+cyan+"\n\n\n\t\tManager   : SAIFUL AND HANIF GRP:TEAM DAVID\n\n"+green+"\t\t     Version : "+str(version)+" \n\n"+end+line+"\n"+end)    
-    print(logo+cyan+"\n\n\n\t\tS.admin    : OYON GRP: TEAM DAVID\n\n"+green+"\t\t     Version : "+str(version)+" \n\n"+end+line+"\n"+end)
-    print(logo+cyan+"\n\n\n\t\tOld sen adm : ASIF GRP: TEAM DAVID\n\n"+green+"\t\t     Version : "+str(version)+" \n\n"+end+line+"\n"+end)
+
 
 
 def clear():
